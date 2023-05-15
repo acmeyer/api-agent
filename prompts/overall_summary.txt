@@ -1,0 +1,7 @@
+Instruction: 
+The following are summaries for different sections of a product's API documentation. Your job is to take these summaries and write an overall summary for the entire API. You should be as detailed as possible but try to keep the summary to less than 600 words.
+
+API sections summaries: 
+{summaries}
+
+Overall summary:

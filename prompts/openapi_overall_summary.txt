@@ -1,0 +1,13 @@
+Instruction: 
+The following are summaries for different endpoints in a product's OpenAPI spec. Your job is to take these summaries and write an overall summary for the entire API. It should include:
+- How the API works
+- What you can do with the API
+- All available endpoint routes and operations as a bullet point list
+- Any other important information you think is relevant for a developer using the API to know
+
+You should be as detailed as possible but try to keep the summary to less than 600 words.
+
+API endpoint summaries: 
+{endpoint_summaries}
+
+Overall summary:

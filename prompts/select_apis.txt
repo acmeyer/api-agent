@@ -1,0 +1,14 @@
+Instruction:
+I am trying to build an integration between APIs. Your job is to:
+1. from a list of APIs below, select which APIs would be relevant to the user's task
+2. call the provided function to get relevant API endpoints for the selected APIs in order to build the integration.
+
+You can select 2 or more APIs, depending on the user's needs.
+
+User's task: {user_query}
+
+APIs to choose from:
+{api_summaries}
+
+Python function to get relevant API endpoints:
+search_api_endpoints(query: str, api_names: list[str], limit: int = 5): Searches for API endpoints and their information for a query. If api_names are provided, only searches for endpoints in those APIs. You can specify a limit on the number of results returned.

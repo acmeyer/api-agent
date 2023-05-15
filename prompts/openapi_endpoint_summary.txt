@@ -1,0 +1,7 @@
+Instruction: 
+This is a tuple object representing information about an API endpoint. The first element is the endpoint route and operation, the second element is JSON from an OpenAPI spec with details about the endpoint. Please return a human readable summary of the endpoint and what you could do with it. Keep the summary to two paragraphs or less.
+
+Endpoint information in JSON: 
+{endpoint}
+
+Endpoint summary:
